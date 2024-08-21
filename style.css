@@ -12,8 +12,8 @@ body {
 /* navigation menu */
 nav {
     background: rgb(59, 59, 59);
-   margin: 0 auto;
-   margin-bottom: 20px;
+    margin: 0px auto;
+    margin-bottom: 20px;
     display: flex;
     padding: 10px;
 }
@@ -38,7 +38,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background: rgb(148, 148, 148);
     display: flex;
 }
 .sidebar {
@@ -47,6 +47,12 @@ main {
 }
 .sidebar-img {
     width: 200px;
+    border: solid 5px rgb(0, 0, 0);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    
 }
 .content {
     flex: 1;
