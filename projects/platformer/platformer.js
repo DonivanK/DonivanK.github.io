@@ -44,16 +44,16 @@ $(function () {
     createPlatform(220,220,1,1);
     createPlatform(220,90,50,10);
     createPlatform(630,290,50,10);
-    createPlatform(200,600,100,5);
+    createPlatform(230,600,50,5);
     createPlatform(300,1,100,2);
     createPlatform(70,500,35,10.5);
     createPlatform(20,370,90,0.1);
     createPlatform(20,200,90,0.1);
     createPlatform(600,650,50,10);
-    createPlatform(100,10,50,10);
+    createPlatform(100,10,500,1);
     createPlatform(900,570,25,5);
     createPlatform(900,450,25,5);
-    createPlatform(700,420,35,5);
+    createPlatform(700,420,35,15);
 
   
     
@@ -64,7 +64,7 @@ $(function () {
     // example usage: createCollectable(type, x, y, gravity, bounce)
     createCollectable('steve', 260,260,6,0.7);
     createCollectable('max', 10,260,6,0.7);
-
+    createCollectable('grace', 900,300,6,0.7);
     
     // TODO 3
     // Create cannons
@@ -72,9 +72,10 @@ $(function () {
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 
-
-
-    
+    createCannon('left', 620, 500);
+    createCannon('right', 470, 900);
+    createCannon('top',100,850);
+    createCannon('bottom', 500, 850);
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
     /////////////////////////////////////////////////
